@@ -4,7 +4,7 @@ const About = () => {
     <div className="about-me-container">
       {/* Profile Image Section */}
       <div className="profile-section">
-        <img src="/people.webp" alt="Profile" className="profile-img" />
+        <img src="./people.webp" alt="Profile" className="profile-img" />
         <div className="abstract-background"></div>
       </div>
 
