@@ -60,7 +60,7 @@ const Hero = () => {
           <motion.button variants={textVariants}  onClick={() => scrollToSection('Portfolio')} >See the Latest Works</motion.button>
           <motion.button variants={textVariants}  onClick={() => scrollToSection('Contact')}>Contact Me</motion.button>
         </motion.div>
-        <motion.img variants={textVariants} animate="scrollButton" src="/scroll.png" alt="" />
+        <motion.img variants={textVariants} animate="scrollButton" src="./scroll.png" alt="" />
       </motion.div>
       </div>
       <motion.div className="slidingTextContainer"  variants={sliderVariants} initial="initial" animate="animate">
